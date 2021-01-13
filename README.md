@@ -31,4 +31,4 @@ The Bootstrap 4 was also used.
 <img src="https://github.com/Yaroslav260378/Bank_System/blob/master/PresentationMedia/1.gif?raw=true" width="" height="" />
 
 
-# Thank you for ypur attention.
+# Thank you for your attention.

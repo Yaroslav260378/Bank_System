@@ -1,6 +1,10 @@
 # Bank System
 WEB-app for online bank. It can create a bank account, give some credits to users, show info about user's transactions.
 
+## Used programing languages
+The WEB-app was written on PHP, HTML and CSS.
+The Bootstrap 4 was also used.
+
 # User Interface
 ## Regestration page
 <img src="https://github.com/Yaroslav260378/Bank_System/blob/master/PresentationMedia/2(Регестрация).png?raw=true" width="" height="" />

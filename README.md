@@ -29,3 +29,6 @@ The Bootstrap 4 was also used.
 
 ## Move money from card 1 to card 2
 <img src="https://github.com/Yaroslav260378/Bank_System/blob/master/PresentationMedia/1.gif?raw=true" width="" height="" />
+
+
+# Thank you for ypur attention.

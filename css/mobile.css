@@ -1,0 +1,477 @@
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+/* ----------- main -------------- */
+/* ----------- main -------------- */
+/* ----------- main -------------- */
+
+
+nav {
+	float: right;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.blue {
+	height: 50px;
+	background-color: #B22222;
+	width: 100%;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+}
+
+.button {
+	color: #B22222;
+	width: 100px;
+	display: block;
+	padding: 10px 5px 16px 5px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+
+}
+
+.button:hover {
+	background: #fff;
+	color: #B22222;
+	text-decoration: none;
+
+}
+
+.button_logo {
+	color: #B22222;
+	min-width: 100px;
+	max-width: 300px;
+	height: 50px;
+	padding: 10px 5px 8px 5px;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	font-size: 16px !important;
+
+}
+
+.button_logo:hover {
+	background: #fff;
+	color: #B22222;
+	text-decoration: none;
+
+}
+
+.addcard {
+	border: 1px solid;
+	border-color: #B22222;
+	width: 100%;
+	float: right;
+	margin: 0 auto;
+	min-height: 123px;
+}
+
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.addcard p {
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	padding-left: 40px;
+	color: #fff;
+}
+
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #000;
+}
+
+.button_add_card {
+	color: #B22222;
+	width: 150px;
+	display: block;
+	padding: 10px 5px 16px 5px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+
+}
+
+.button_add_card:hover {
+	background: #fff;
+	color: #FFD700;
+	text-decoration: none;
+
+}
+
+/* цвета */
+
+.green {
+	color: green;
+}
+
+.red {
+	color: #B22222;
+}
+.yellow {
+	color: #FFD700;
+}
+
+/* цвета */
+
+
+.hrr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.view_card {
+	border: 1px solid;
+	border-color: #B22222;
+	width: 100%;
+	float: left;
+	margin: 0 auto;
+	min-height: 123px;
+}
+.view_card p {
+	text-align: center;
+}
+
+.absolute {
+	position: absolute;
+	color: white;
+	font-size: 25px;
+}
+
+.selected_card {
+	border: 1px solid;
+	border-color: #B22222;
+	width: 100%;
+	min-height: 123px;
+	float: left;
+}
+.selected_card p {
+	text-align: center;
+}
+
+.selected_card .left {
+	text-align: left;
+	margin-left: 10px;
+
+}
+.selected_card .right {
+	text-align: right;
+	margin-right: 10px;
+}
+
+/* absolute */
+.abs {
+	position: absolute;
+}
+
+.login_form {
+	margin: 0 30px 30px 30px;
+	padding: 20px 20px 20px 20px ;
+	position: relative;
+}
+.login_form p {
+	text-align: center;
+}
+
+.button_in {
+	color: #B22222;
+	width: 150px;
+	display: block;
+	padding: 10px 5px 8px 5px;
+	margin-bottom: 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+
+}
+
+.button_in:hover {
+	background: #fff;
+	color: #FFD700;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#dynamic-label-input:valid {
+ background-color: #cbffde;
+ }
+
+#dynamic-label-input {
+	border: 1px solid;
+	border-radius: 30px;
+	border-color: #fff;
+	box-shadow: 9px 1px 62px -25px #000000 inset;
+	text-align: center;
+}
+
+
+.news {
+	border: 1px solid;
+	border-color: #B22222;
+	width: 400px;
+	float: left;
+	margin: 20px 0px 20px 20px;
+}
+.news p {
+	text-align: center;
+}
+
+.news_block {
+	margin: 50px 75px 0 4%;
+	width: 93%;
+	word-wrap: break-word;
+}
+
+.justify {
+	text-align: justify !important;
+}
+
+.transfer {
+	border: 1px solid;
+	border-color: #B22222;
+	width: 100%;
+	min-height: 303px;
+	float: left;
+
+}
+.transfer p {
+	text-align: center;
+}
+
+.transfer .left {
+	text-align: left;
+	margin-left: 10px;
+
+}
+.transfer .right {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.register_form {
+	border: 0px solid;
+	border-color: #fff;
+	width: 350px;
+	margin: 35px auto 20px auto;
+	background-color: #fff;
+	border-radius: 50px;
+	box-shadow: 9px 1px 62px -25px #000000;
+	padding: 20px 20px 20px 20px;
+
+}
+.register_form p {
+	text-align: center;
+}
+
+.transfer_number_form {
+	border: 1px solid;
+	border-color: #B22222;
+	width: 100%;
+
+}
+.transfer_number_form p {
+	text-align: center;
+}
+
+.history_form {
+	border: 1px solid;
+	border-color: #B22222;
+	width: 100%;
+	min-height: 303px;
+	max-height: 303px;
+	overflow:auto;
+
+}
+.history_form p {
+	text-align: center;
+}
+
+.history_form .left {
+	text-align: left;
+	margin-left: 10px;
+
+}
+.history_form .right {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.otstup { 
+margin-right: 5px;
+margin-left: 5px;  }
+
+.t_menu1 {
+	width: 25%;
+	height: 351px;
+	background-color: #343434;
+
+}
+.t_margin_height{
+	margin-top: 16px !important;
+}
+.t_height {
+	height: 335px;
+}
+
+.white {
+	color: white;
+}
+
+.t_logo {
+	font-size: 24px;
+	padding-top: 5%;
+}
+.t_menu {
+	padding: 0;
+	margin: 15% 0 0 0;
+	display: block;
+}
+.t_menu1 nav {
+	float: left;
+	width: 100%;
+}
+
+.t_menu li {
+	display: block;
+}
+
+.t_button {
+	width: 100%;
+	display: block;
+	padding: 10px 5px 16px 5px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+
+}
+.t_button_hover {
+	background: #fff; 
+	color: #000;
+	text-decoration: none;
+}
+
+.t_button:hover {
+	background: #fff;
+	color: #000;
+	text-decoration: none;
+
+}
+
+.t_container {
+	margin-left: 25%;
+}
+
+.t_right {
+	float: right;
+	margin-right: 200px;
+	margin-top: 20px;
+}
+.t_right_out {
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border: 1px solid;
+	width: 300px;
+	float: right;
+	margin-right: 200px;
+}
+
+.t_form_pop {
+	padding: 10px 0 0 10px;
+}
+
+.widthh {
+	width: 150px;
+	margin-right: 0;
+	float: left;
+}
+.output_form {
+	padding: 10px 0 0 10px;
+}
+
+.pin_widht {
+	width: 70px;
+	height: 25px;
+}
+.card_add_name {
+	margin-left: 15%;
+}
+
+.nazn {
+	border: 1px solid;
+	border-color: blue;
+	height: 40px;
+	margin-bottom: 5px;
+}
+
+.form_profile {
+	border: 1px solid;
+	border-color: #B22222;
+	width: 100%;
+	float: left;
+	min-height: 123px;
+}
+.form_profile p {
+	text-align: center;
+}
+
+.left {
+	text-align: left !important;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 30px;
+}

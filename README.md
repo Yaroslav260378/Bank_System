@@ -2,8 +2,6 @@
 WEB-app for online bank. It can create a bank account, give some credits to users, show info about user's transactions.
 
 # User Interface
-
-# Workin Presentation
 ## Regestration page
 <img src="https://github.com/Yaroslav260378/Bank_System/blob/master/PresentationMedia/2(Регестрация).png?raw=true" width="" height="" />
 

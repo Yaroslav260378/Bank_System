@@ -3,4 +3,4 @@ WEB-app for online bank. It can create a bank account, give some credits to user
 
 #User Interface
 
-<img src="/PresentationMedia/1.gif" width="40" height="40" />
+<img src="https://github.com/Yaroslav260378/Bank_System/blob/master/PresentationMedia/1.gif?raw=true" width="" height="" />
